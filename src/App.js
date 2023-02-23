@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from './assets/pages/Navbar.js';
 import Aside from './assets/pages/Aside.js';
 import Dashboard from './assets/pages/Dashboard.js'
-import {Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Customer from './assets/pages/Customer';
 import Operators from './assets/pages/Operators';
 import Packages from './assets/pages/Packages';
@@ -14,6 +14,7 @@ import Settings from './assets/pages/Settings';
 function App() {
   return (
     <>
+<div className='bg-dark-gray'>
 
 <Navbar/>
 <Aside/>
@@ -29,6 +30,7 @@ function App() {
   <Route path='Settings' element={<Settings/>} />
 </Routes>
 
+</div>
 
     </>
   );
