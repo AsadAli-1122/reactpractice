@@ -1,6 +1,6 @@
 import React from 'react'
-import LambulaLogo from '../assets/images/Lambula logo.svg'
-import profiel from '../assets/images/kevin-mueller-aeNg4YA41P8-unsplash.jpg'
+import LambulaLogo from '../images/Lambula logo.svg'
+import profiel from '../images/kevin-mueller-aeNg4YA41P8-unsplash.jpg'
 
 export default function Navbar() {
 

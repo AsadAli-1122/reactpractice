@@ -1,25 +1,25 @@
 import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar.js';
-import Aside from './components/Aside.js';
-import Default from './Default';
-import Dashboard from './components/Dashboard.js'
+import Navbar from './assets/pages/Navbar.js';
+import Aside from './assets/pages/Aside.js';
+import Dashboard from './assets/pages/Dashboard.js'
 import {Routes, Route } from "react-router-dom";
-import Customer from './components/Customer';
-import Operators from './components/Operators';
-import Packages from './components/Packages';
-import Bookings from './components/Bookings';
-import Transactions from './components/Transactions';
-import Settings from './components/Settings';
+import Customer from './assets/pages/Customer';
+import Operators from './assets/pages/Operators';
+import Packages from './assets/pages/Packages';
+import Bookings from './assets/pages/Bookings';
+import Transactions from './assets/pages/Transactions';
+import Settings from './assets/pages/Settings';
 
 function App() {
   return (
     <>
+
 <Navbar/>
 <Aside/>
 
 <Routes>
-  <Route path='/' element={<Default/>} />
+  <Route path='/' element={<Dashboard/>} />
   <Route path='Dashboard' element={<Dashboard/>} />
   <Route path='Customers' element={<Customer/>} />
   <Route path='Operators' element={<Operators/>} />
