@@ -1,9 +1,9 @@
+import { Routes, Route } from "react-router-dom";
 import './App.css';
 import React from 'react';
 import Navbar from './assets/pages/Navbar.js';
 import Aside from './assets/pages/Aside.js';
 import Dashboard from './assets/pages/Dashboard.js'
-import { Routes, Route } from "react-router-dom";
 import Customer from './assets/pages/Customer';
 import Operators from './assets/pages/Operators';
 import Packages from './assets/pages/Packages';
@@ -18,7 +18,6 @@ function App() {
 
 <Navbar/>
 <Aside/>
-
 <Routes>
   <Route path='/' element={<Dashboard/>} />
   <Route path='Dashboard' element={<Dashboard/>} />

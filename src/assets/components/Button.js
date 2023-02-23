@@ -6,7 +6,7 @@ export default function Button(props) {
 
   return (
     <div>
-      <button className='m-4 py-1 px-6 rounded bg-syellow hover:bg-yellow-400 active:bg-yellow-500 text-black font-bold tracking-wider cursor-pointer w-fit'>{props.btnText}</button>
+      <button className='m-2 py-1 px-6 rounded bg-syellow hover:bg-yellow-400 active:bg-yellow-500 text-black font-bold tracking-wider cursor-pointer w-fit'>{props.btnText}</button>
     </div>
   )
 }
