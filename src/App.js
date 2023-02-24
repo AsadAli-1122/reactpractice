@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import {  BrowserRouter as Router , Routes, Route } from "react-router-dom";
 import './App.css';
 import React from 'react';
 import Navbar from './assets/pages/Navbar.js';
@@ -10,11 +10,12 @@ import Packages from './assets/pages/Packages';
 import Bookings from './assets/pages/Bookings';
 import Transactions from './assets/pages/Transactions';
 import Settings from './assets/pages/Settings';
-import Logout from './assets/pages/Logout';
 
 function App() {
   return (
     <>
+    <Router>
+
 <div className='bg-dark-gray'>
 
 <Navbar/>
@@ -28,10 +29,10 @@ function App() {
   <Route path='Bookings' element={<Bookings/>} />
   <Route path='Transactions' element={<Transactions/>} />
   <Route path='Settings' element={<Settings/>} />
-  <Route path='Logout' element={<Logout/>} />
 </Routes>
 
 </div>
+    </Router>
 
     </>
   );
