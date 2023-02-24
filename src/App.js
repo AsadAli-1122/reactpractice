@@ -10,6 +10,7 @@ import Packages from './assets/pages/Packages';
 import Bookings from './assets/pages/Bookings';
 import Transactions from './assets/pages/Transactions';
 import Settings from './assets/pages/Settings';
+import Logout from './assets/pages/Logout';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
   <Route path='Bookings' element={<Bookings/>} />
   <Route path='Transactions' element={<Transactions/>} />
   <Route path='Settings' element={<Settings/>} />
+  <Route path='Logout' element={<Logout/>} />
 </Routes>
 
 </div>

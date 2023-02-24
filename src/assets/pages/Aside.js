@@ -52,7 +52,7 @@ export default function Aside() {
             </ul>
             <ul className="space-y-2">
                 <li>
-                    <Link to="/" className="flex items-center p-2 pl-6 text-base bg-syellow text-gray-700 hover:bg-yellow-400 hover:text-black hover:border-l-4 ease-in-out duration-100 border-syellow font-bold">
+                    <Link to="Logout" className="flex items-center p-2 pl-6 text-base bg-syellow text-gray-700 hover:bg-yellow-400 hover:text-black hover:border-l-4 ease-in-out duration-100 border-syellow font-bold">
                     <i className="fa-solid fa-right-from-bracket"></i>
                         <span className="ml-3">Logout</span>
                     </Link>
